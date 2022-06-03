@@ -1,0 +1,104 @@
+.dropdown-toggle::after{
+    display: none;
+}
+.dropdown-menu{
+    border-radius: 0px;
+    padding: 0px;
+    background-color: rgb(250, 246, 241);
+    border-top: solid 3px #e10f28;;
+}
+.nav-link:hover .dropdown-menu{
+    display: block;
+}
+.nav-link:hover{
+    color: #e10f28;
+}
+.nav-link{
+    color: #222;
+}
+.fa-angle-right{
+    font-size: 14px;
+    color: rgb(163, 162, 162);
+}
+.navbar{
+    background-color: white;
+}
+.icons .nav-link{
+    color: #e10f28;
+}
+.container{
+    position: relative;
+}
+ /* .nav1::after{
+    content: "";
+    width: 43px;
+    height: 3px;
+    background-color: #e10f28;
+    position: absolute;
+    top: 87%;
+    left: 38.7%;
+    transform: translate(-38.7%, -87%);
+} */
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #e10f28;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    /* opacity: 0.5; */
+    transition: opacity 0.6s ease;
+}
+.slider-1{
+    background: url('..//images/bgn-slider-01.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.slider-2{
+    background: url('..//images/bgn-slider-02.jpg');
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background-color: #444;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    color: black!important;
+
+}
+.carousel-control-prev-icon:hover{
+    background-color: #e10f28;
+}
+.carousel-control-next-icon:hover{
+    background-color: #e10f28;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+
+.caption{
+    height: 900px;
+    width: 50%;
+
+}
